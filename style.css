@@ -1,0 +1,997 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+body{
+    background-color:white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.header{
+    background-color:black;
+    padding-bottom: none;
+    padding-top: none;
+  
+ 
+}
+.main{
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+   
+}
+.sharelink{
+    position: relative;
+    top: 20px;
+    left: 80px;
+}
+.social-media ul{
+    width: 1;
+    padding-top: 20px ;
+    display: block;
+    display: flex;
+    transform: translate(-50%,-50%);
+    color: black;
+ 
+
+ }          
+ .social-media ul li{
+     list-style: none;
+     padding-left: 20px;
+     color: black;
+     text-align: center;
+     position: relative;
+     right: -86px;
+     top: 20px;
+    
+      
+ }
+ .social-media ul li .fa{
+     font-size: 20px;
+     line-height: 0px;
+     transition: .6s;
+     
+     
+ }
+ .social-media ul li .fa:hover{
+     color: #fff;
+ }
+.social-media ul li a {
+
+ display: block;
+ width: 25px;
+ height: 25px; 
+ border-radius: 50%;
+ background-color:whitesmoke;
+ text-align: center;
+ transition: .6s;
+ box-shadow: 0 5px 4px rgba(0,0,0,.5);
+ color: black;
+}
+.social-media ul li a:hover{
+ transform:translate(0,-10px);
+}
+.social-media ul li:nth-child(1) a:hover{
+    background-color:#cd201f;
+    color: white;
+}
+
+.social-media ul li:nth-child(2) a:hover{
+    background-color: #e4405f;
+    color: white;
+}
+
+.social-media ul li:nth-child(3) a:hover{
+    background-color:  #25D366;
+    color: white;
+}
+.social-media ul li:nth-child(4) a:hover{
+    background-color:#cd201f;
+    color: white;
+}
+
+.slogon{
+   width: 1;
+   text-align: center;
+   font-size: 25px;
+   display: flex;
+   position: relative;
+   top: 11px;
+   font-weight: bold;
+   height: 25px;
+}
+.search{
+   
+    width: 1;
+    display: block;
+    text-decoration: none;
+    font-size: 10px;
+    padding-right:50px;
+    position: relative;
+    top: 10px;
+    height: 55px;
+}
+
+.navbar{
+    background-color:white;
+    font-family: 'Nanum Gothic';
+    font-size: 14px;
+    padding: none;
+  
+  
+}
+
+.navbar-nav{
+    color: #000000;
+    text-align: center; 
+    text-decoration: none;
+     
+}
+
+.navbar-item{
+    color: #000000;
+    margin: 30px;
+    text-align: left; 
+    text-decoration: none;
+}
+
+.nav-link{
+    color: #000000;
+    margin: 5px;
+    text-align: left; 
+    text-decoration: none;
+    transition-property: text color ;
+    transition-duration: 0.5s;  
+}
+.active, .nav-link:hover{
+    background-color: orange;
+    font-weight: bold;
+    text-align: center;
+}
+.nav-link:hover{
+    background-color: orange;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+
+   
+}
+.navbar-toggler{
+    width: 60px;
+    border-collapse: 100px;
+    transition-property: color ;
+    transition-duration: 10s;
+}
+.navbar-toggler:hover{
+   
+  background-color:white
+
+}
+.dropdown-item{
+    color: dimgray;
+    text-align: left;
+    font-family: arial;
+    font-size: 16px;
+}
+
+.dropdown-item:hover{
+    background-color:orange;
+   
+}
+.slider1{
+    font-family: 'Anton';
+    font-size: 40px;
+    position: relative;
+    bottom: 140px;
+    right: 200px;
+}
+.slider2{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 40px;
+    position: relative;
+    bottom: 139px;
+    right: 200px;
+    color:black;
+    font-weight: bolder;
+
+}
+.btn1{
+    position: relative ;
+    bottom: 230px;
+    right: 11%;
+    font-weight: bold;
+}
+.btn2{
+    position: relative ;
+    bottom: 250px;
+    right:14%;
+    font-weight: bold;
+}
+.fas3{
+    color:black;
+    font-size: 15px;
+    transform: rotate(1);
+    transition: transform 1s;
+    position: relative;
+    right: 86px; 
+    width: 35px;
+    height: 35px;
+    background-color:lightgray;
+    border-radius: 20px;
+    padding:9px 8px;
+}
+.fas3:hover{
+     transform: rotate(360deg);
+     color:orange;
+   
+}
+.fas2{
+    color:black;
+    font-size: 15px; 
+    position: relative;
+    right:120px;
+    width: 35px;
+    height: 35px;
+    background-color:lightgray;
+    border-radius: 20px;
+    padding:9px 10px;
+}
+.fas2:hover{
+   color: red;
+}
+.fas1{
+    width: 35px;
+    height: 35px;
+    background-color:lightgray;
+    border-radius: 20px;
+    padding:9px 10px;
+    color: black;
+    font-size: 15px;
+    position: relative;
+    right: 50px;
+}
+.fas1:hover{
+   color:blue;
+}
+.marquee{
+    background-color:black;
+    color: white;
+  
+    margin-top: 10px ;
+    font-size: 13px;
+}
+.move{
+    color:orange;
+}
+.section1{
+ 
+    background-color:whitesmoke;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.section11{
+    background-color:whitesmoke;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.intro{
+    text-align: center;
+    margin-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    padding-right:20px;
+    padding-left:20px;
+    padding-bottom: 40px;
+    
+}
+hr{
+    border: solid 0.5px lightgray;
+    margin-top: 5px;
+}
+.row1{
+    margin-top: 10px;
+}
+.row2{
+    margin-top: 10px;
+}
+.card{
+    position: relative;
+    right: 8px;
+    width: 100%;
+    top: -30px;
+}
+.card-title{
+    font-size: 15px;
+    text-align: center;
+    word-spacing: none;
+    color: dimgray;
+}
+
+.card-body {
+    text-align: center;
+    margin: 5px;
+   
+}
+.inner-img{
+    overflow: hidden;
+}
+.inner-img {
+  
+}
+.inner-img:hover {
+  
+   transition: 1s;
+}
+.special{
+   margin-top: 70px;
+}
+.section2{
+    background-color:orange;
+    margin-top: 50px;
+}
+.jumbotron{
+    font-family: Anton;
+    margin-top: -70px;
+    background-color: orange;
+    color:black;
+    text-align: center;
+    word-spacing: 10px;
+    padding-bottom: 100px;
+} 
+.section3{
+    background-color: whitesmoke;
+
+}
+.rowarrived{
+    margin-top: -99px;
+    margin-bottom: 200px;
+}
+.rowarrived1{
+   margin-top: 5%;
+}
+.sec-arrived{
+    font-weight: bold;
+}
+.section4{
+    margin-top: -140px;
+}
+div.scrollmenu {
+    background-color:white;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu a {
+    width: 200px;
+    height: 150px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    transform: scale(1);
+    transition: 1s;
+  }
+  
+  div.scrollmenu a:hover {
+    transform: scale(1.5);
+  }
+   
+.footer1{
+    
+    margin-top: 100px;
+    padding-top: 50px;
+    background-color:black;
+    font-family: 'Times New Roman';
+    
+}
+.embed{
+    font-size: 14px;
+}
+.address{
+    margin-top: 70px;
+    color: white;
+}
+.address1{
+    color: white;
+    font-size: 15px;
+}
+.online{
+    margin-top: 70px;  
+    color: white; 
+}
+
+.connect{
+    color: white;
+    margin-top: 70px;
+}
+
+.footer2{
+    position: relative;
+    bottom: fixed; 
+    text-align: center;
+    background-color:orange;
+    color: black;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+/* shirt.html */
+.secimg{
+   
+    background-color: whitesmoke;
+}
+.box{
+   margin-top: 30px;
+    width:150px;
+    height: 60px;
+    border-radius: 30px;
+    background-color:white;
+    border: solid 1px lightgray;
+    display: inline-block;
+    justify-content: space-around;
+    justify-content: space-between;
+}
+.sectionshirt{
+    font-family: ANTON;
+    letter-spacing: 10px;
+    font-weight: bolder;
+   background: #000;
+   height: 150px;
+   color: white;
+   text-align: center;
+   padding-top: 50px;
+}
+.selectimg{
+    padding-top:3px ;
+    padding-bottom: 4px;
+    padding-left: 2px;
+    width: 60px;
+    height: 60px;
+}
+.selecttext{
+    padding-left: 10px;
+    font: bolder;
+    color: dimgray;
+}
+.modal3{
+    text-align: center;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.modal-body
+{
+    font-weight: bold;
+}
+.icon{
+    font-size: 30px;
+    color:#3b5999;
+}
+.icon1{
+    font-size: 30px;
+    color:#e4405f;
+}
+.icon2{
+    font-size: 30px;
+    color:#cd201f;
+}
+.icon3{
+    font-size: 30px;
+    color:#25D366
+}
+.map{
+overflow: hidden;
+}
+.map iframe{
+    width: 100%;
+    padding-bottom: 100px;
+  
+}
+.fill{
+
+    font-size: 20px;
+    font-family: ANTON;
+}
+.contactform{
+    padding-top: 50px;
+    font-size: 14px;
+}
+.control{
+    font-size: 13px;
+    
+}
+.about{
+margin-top: 50px;
+font-weight: bold;
+text-align: center;
+padding-bottom: 20px;
+}
+.about1{
+    color: dimgray;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+
+
+
+/* Media Query */
+
+@media only screen and (max-width: 1200px,1250px,1100px,1150px) {
+    .fas3{
+        color:black;
+        font-size: 20px;
+        transform: rotate(1);
+        transition: transform 1s;
+        position: relative;
+        left: 510px;  
+        padding:9px 6px;
+    }
+    .fas3:hover{
+         transform: rotate(360deg);
+         color:orange;
+       
+    }
+    .fas2{
+        color:black;
+        font-size: 20px; 
+        position: relative;
+        left:480px;
+        padding:9px 8px;
+        
+    }
+    .fas2:hover{
+       color: red;
+    }
+    .fas1{
+        color: black;
+        font-size: 20px;
+        position: relative;
+        left: 540px;
+        padding:9px 8px;
+    }
+    .fas1:hover{
+       color:blue;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    .fas3{
+        color:black;
+        font-size: 20px;
+        transform: rotate(1);
+        transition: transform 1s;
+        position: relative;
+        left: 420px;  
+        padding:9px 6px;
+    }
+    .fas3:hover{
+         transform: rotate(360deg);
+         color:orange;
+       
+    }
+    .fas2{
+        color:black;
+        font-size: 20px; 
+        position: relative;
+        left:390px;
+        padding:9px 8px;
+        
+    }
+    .fas2:hover{
+       color: red;
+    }
+    .fas1{
+        color: black;
+        font-size: 20px;
+        position: relative;
+        left: 450px;
+        padding:9px 8px;
+    }
+    .fas1:hover{
+       color:blue;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .fas3{
+        color:black;
+        font-size: 20px;
+        transform: rotate(1);
+        transition: transform 1s;
+        position: relative;
+        left: 420px;  
+        padding:9px 6px;
+    }
+    .fas3:hover{
+         transform: rotate(360deg);
+         color:orange;
+       
+    }
+    .fas2{
+        color:black;
+        font-size: 20px; 
+        position: relative;
+        left:390px;
+        padding:9px 8px;
+        
+    }
+    .fas2:hover{
+       color: red;
+    }
+    .fas1{
+        color: black;
+        font-size: 20px;
+        position: relative;
+        left: 450px;
+        padding:9px 8px;
+    }
+    .fas1:hover{
+       color:blue;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .fas3{
+        color:black;
+        font-size: 20px;
+        transform: rotate(1);
+        transition: transform 1s;
+        position: relative;
+        left: 350px;
+        padding:9px 6px;
+    }
+    .fas3:hover{
+         transform: rotate(360deg);
+         color:orange;
+       
+    }
+    .fas2{
+        color:black;
+        font-size: 20px; 
+        position: relative;
+        left: 320px;
+        padding:9px 8px;
+        
+    }
+    .fas2:hover{
+       color: red;
+    }
+    .fas1{
+        color: black;
+        font-size: 20px;
+        position: relative;
+        left: 380px;
+        padding:9px 8px;
+    }
+    .fas1:hover{
+       color:blue;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .fas3{
+        color:black;
+        font-size: 20px;
+        transform: rotate(1);
+        transition: transform 1s;
+        position: relative;
+        left: 310px;  
+        padding:9px 6px;
+    }
+    .fas3:hover{
+         transform: rotate(360deg);
+         color:orange;
+       
+    }
+    .fas2{
+        color:black;
+        font-size: 20px; 
+        position: relative;
+        left:280px;
+        padding:9px 8px;    
+    }
+    .fas2:hover{
+       color: red;
+    }
+    .fas1{
+        color: black;
+        font-size: 20px;
+        position: relative;
+        left: 340px;
+        padding:9px 8px;
+    }
+    .fas1:hover{
+       color:blue;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .fas3{
+        color:black;
+        font-size: 20px;
+        transform: rotate(1);
+        transition: transform 1s;
+        position: relative;
+        left: 260px;
+        padding:9px 6px;
+    }
+    .fas3:hover{
+         transform: rotate(360deg);
+         color:orange;
+       
+    }
+    .fas2{
+        color:black;
+        font-size: 20px; 
+        position: relative;
+        left: 230px;
+        padding:9px 8px;       
+    }
+    .fas2:hover{
+       color: red;
+    }
+    .fas1{
+        color: black;
+        font-size: 20px;
+        position: relative;
+        left: 290px;
+        padding:9px 8px;
+    }
+    .fas1:hover{
+       color:blue;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .fas3{
+        color:black;
+        font-size: 20px;
+        transform: rotate(1);
+        transition: transform 1s;
+        position: relative;
+        left: 215px;
+        padding:9px 6px;
+    }
+    .fas3:hover{
+         transform: rotate(360deg);
+         color:orange;
+       
+    }
+    .fas2{
+        color:black;
+        font-size: 20px; 
+        position: relative;
+        left: 185px;
+        padding:9px 8px;       
+    }
+    .fas2:hover{
+       color: red;
+    }
+    .fas1{
+        color: black;
+        font-size: 20px;
+        position: relative;
+        left: 245px;
+        padding:9px 8px;
+    }
+    .fas1:hover{
+       color:blue;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .fas3{
+        color:black;
+        font-size: 20px;
+        transform: rotate(1);
+        transition: transform 1s;
+        position: relative;
+        left: 175px;
+        padding:9px 6px;
+    }
+    .fas3:hover{
+         transform: rotate(360deg);
+         color:orange;
+       
+    }
+    .fas2{
+        color:black;
+        font-size: 20px; 
+        position: relative;
+        left: 145px;
+        padding:9px 8px;
+    }
+    .fas2:hover{
+       color: red;
+    }
+    .fas1{
+        color: black;
+        font-size: 20px;
+        position: relative;
+        left: 205px;
+        padding:9px 8px;
+    }
+    .fas1:hover{
+       color:blue;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .fas3{
+        color:black;
+        font-size: 20px;
+        transform: rotate(1);
+        transition: transform 1s;
+        position: relative;
+        left: 165px;
+        padding:9px 6px;
+    }
+    .fas3:hover{
+         transform: rotate(360deg);
+         color:orange;
+       
+    }
+    .fas2{
+        color:black;
+        font-size: 20px; 
+        position: relative;
+        left: 135px;
+        padding:9px 8px;
+    }
+    .fas2:hover{
+       color: red;
+    }
+    .fas1{
+        color: black;
+        font-size: 20px;
+        position: relative;
+        left: 195px;
+        padding:9px 8px;
+    }
+    .fas1:hover{
+       color:blue;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .fas3{
+        color:black;
+        font-size: 20px;
+        transform: rotate(1);
+        transition: transform 1s;
+        position: relative;
+        left: 130px;
+        padding:9px 6px;
+    }
+    .fas3:hover{
+         transform: rotate(360deg);
+         color:orange;
+       
+    }
+    .fas2{
+        color:black;
+        font-size: 20px; 
+        position: relative;
+        left: 100px;
+        padding:9px 8px;
+    }
+    .fas2:hover{
+       color: red;
+    }
+    .fas1{
+        color: black;
+        font-size: 20px;
+        position: relative;
+        left: 160px;
+        padding:9px 8px;
+    }
+    .fas1:hover{
+       color:blue;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .rowarrived1{
+        margin-top: 10%;
+     }
+    .fas3{
+        color:black;
+        font-size: 20px;
+        transform: rotate(1);
+        transition: transform 1s;
+        position: relative;
+        left: 90px;
+        padding:9px 6px;
+    }
+    .fas3:hover{
+         transform: rotate(360deg);
+         color:orange;
+       
+    }
+    .fas2{
+        color:black;
+        font-size: 20px; 
+        position: relative;
+        left:60px;
+        padding:9px 8px;
+        
+    }
+    .fas2:hover{
+       color: red;
+    }
+    .fas1{
+        color: black;
+        font-size: 20px;
+        position: relative;
+        left: 120px;
+        padding:9px 8px;
+        
+    }
+    .fas1:hover{
+       color:blue;
+    }
+    .social-media ul{
+        width: 1;
+        padding-top: 20px ;
+        display: block;
+        display: flex;
+        transform: translate(-50%,-50%);
+        color: black;
+     
+    
+     }          
+     .social-media ul li{
+         list-style: none;
+         padding-left: 20px;
+         color: black;
+         text-align: center;
+         position: relative;
+         right: -79px;
+         top: 33px;
+        
+          
+     }
+     .social-media ul li .fa{
+         font-size: 20px;
+         line-height: 0px;
+         transition: .6s;
+         
+         
+     }
+     .social-media ul li .fa:hover{
+         color: #fff;
+     }
+    .social-media ul li a {
+    
+     display: block;
+     width: 25px;
+     height: 25px; 
+     border-radius: 50%;
+     background-color:whitesmoke;
+     text-align: center;
+     transition: .6s;
+     box-shadow: 0 5px 4px rgba(0,0,0,.5);
+     color: black;
+    }
+    .social-media ul li a:hover{
+     transform:translate(0,-10px);
+    }
+    .social-media ul li:nth-child(1) a:hover{
+        background-color: #3b5999;
+        color: white;
+    }
+    .social-media ul li:nth-child(2) a:hover{
+        background-color: #e4405f;
+        color: white;
+    }
+ 
+    .social-media ul li:nth-child(3) a:hover{
+        background-color: #25D366;
+        color: white;
+    }
+    .social-media ul li:nth-child(4) a:hover{
+        background-color: #cd201f;
+        color: white;
+    }
+    
+}
